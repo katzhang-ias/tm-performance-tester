@@ -1,0 +1,20 @@
+{
+  "name": "tm-performance-tester",
+  "version": "1.0.0",
+  "description": "An automated performance tester made with Puppeteer.",
+  "main": "trinity.js",
+  "scripts": {
+    "start": "node trinity.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katzhang-ias/tm-performance-tester.git"
+  },
+  "author": "kat@integralads.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katzhang-ias/tm-performance-tester/issues"
+  },
+  "homepage": "https://github.com/katzhang-ias/tm-performance-tester#readme"
+}
