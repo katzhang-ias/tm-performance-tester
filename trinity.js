@@ -54,7 +54,7 @@ Promise.all(proms).then(function() {
             tmMetrics[slot][metric].push(JSON.stringify({ mean: utils.getMean(numbers), sd: utils.getStandardDeviation(numbers) }));
         }
     }
-    console.log(tmMetrics.divGptAdInArticleSlot.requestedToReceived);
+    console.log(tmMetrics);
 }).catch(function(e) {
     console.log(e);
 });
