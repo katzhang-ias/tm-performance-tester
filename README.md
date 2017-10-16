@@ -2,6 +2,10 @@
 * Automated opening a test page, reading/detecting performance metrics
 * Calculate means and standard deviations of collected metric results
 
+### Prerequisites 
+
+* [Node.js and npm](https://nodejs.org/en/download/) (npm is distributed with Node.js)
+
 ### Usage
 
 1. Clone the Git repository.
@@ -10,7 +14,7 @@
 git clone git@github.com:katzhang-ias/tm-performance-tester.git
 ```
 
-2. Install [Puppeteer](https://github.com/GoogleChrome/puppeteer).
+2. `cd` into the `tm-performance-tester` directory. Install [Puppeteer](https://github.com/GoogleChrome/puppeteer).
 
 ```
 npm i puppeteer
